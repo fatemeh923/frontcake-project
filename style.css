@@ -1,0 +1,135 @@
+body{
+    background-image: url(img/site_bg1.png); 
+}
+h1,h2,h3,h4,h5,h6{
+      font-family: tahoma;
+}
+span{
+        font-size: 18px;
+    color: #999;
+    display: block;
+    margin-bottom: 10px;
+}
+.beforpart{
+    position: relative;
+}
+.beforpart::before{
+    position: absolute;
+    content: "____________________________________________";
+    top: 36px;
+    right: 142px;
+
+}
+
+.beforpart2{
+    position: relative;
+}
+.beforpart2::before{
+    position: absolute;
+    content: "____________________________________________";
+    right: 12px;
+    bottom: 82px;
+
+}
+.title{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.wrapper-left{
+    justify-content: flex-end;
+}
+.wrapper-left input.input1{
+    width: 316px;
+    height: 40px;
+}
+.wrapper-left input.btn{   
+    border: 2px solid deeppink;
+    height: 40px;
+    width: 147px;
+}
+.img1{
+    border: 1px solid hotpink;
+}
+.img2{
+    border-radius: 150px;
+}
+.card1{
+    background-color: antiquewhite;
+    border-radius: 40px 40px 0 0;
+}
+/*.carousel-control-prev,carousel-control-next{
+    position: relative;
+}
+ .carousel-control-prev-icon{
+    background-color: hotpink;
+    position: absolute;
+    right: 29px;
+    bottom: 97px;
+}
+.carousel-control-next-icon{
+    position: absolute;
+    right: 133px;
+    background-color: hotpink;
+} */
+.navbar{
+    background-color:#FFB7C5;
+    border-radius: 50px;
+}
+
+/* cake.html */
+.parttop{
+    background-color: rgb(120, 55, 9);
+    color: white;
+}
+.parttop2{
+    background-image: url(img/korosan.jpg);
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    object-fit: contain;
+}
+.parttop2 p{
+    color: #000000cf;
+    width: 600px;
+    border-radius: 5px;
+}
+.slide2, .slide4{
+    background-color: #fde2bed6;
+}
+.slide2 p{
+    text-align: justify;
+}.slide2 .btn{
+    background-color: rgb(120, 55, 9);
+    width: 121px;
+    text-align: center;
+    font-size: 19px;
+    color: lavender;
+    font-family: tahoma;
+    border-radius: 30px;
+}
+.slide3{
+    background-color: rgb(120, 55, 9);
+
+}
+.slide3 img{
+    width: 200px;
+    margin:20px 10px ;
+}
+
+.slide4 .btnsh{
+    background-color: rgb(120, 55, 9);
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-size: 12px;
+    color: lavender;
+    font-family: tahoma;
+    border-radius: 30px;  
+}
+.slide4 img{
+    border: 4px solid rgb(120, 55, 9);
+    border-radius: 100px;
+}
